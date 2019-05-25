@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "rtr:redstone_torch_rocket",
+            "is_experimental": false,
+            "register_to_creative_menu": false
+        },
+        "components": {
+           
+            "minecraft:destroy_time": {
+                "value": 8
+            },
+            "minecraft:explosion_resistance": {
+                "value": 10
+            },
+            "minecraft:friction": {
+                "value": 0.3
+            },
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:map_color": {
+                "color": "#4ef442"
+            },
+            "minecraft:block_light_absorption": {
+                "value": 0
+            },
+            "minecraft:block_light_emission": {
+                "emission": 0.0
+            }
+        }
+    }
+}
