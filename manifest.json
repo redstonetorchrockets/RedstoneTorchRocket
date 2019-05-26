@@ -4,18 +4,13 @@
         "name": "RedstoneTorchRocket",
         "description": "The RedstoneTorchRockets mod adds a redstonetorchrocket. And I think it is impossible to live without one!!",
         "uuid": "d2ea0262-fe0e-48cb-b760-2078f49f4676",
-        "version": [0, 0, 1]
+        "version": [0, 1, 0],
+        "min_engine_version": [1, 2, 6]
     },
     "modules": [{
-            "type": "data",
-            "uuid": "01abf95a-7eef-11e9-8f9e-2a86e4085a59",
-            "version": [0, 0, 1]
-        },
-        {
-            "description": "The RedstoneTorchRocket script",
-            "type": "client_data",
-            "uuid": "ccbe7a10-7fbb-11e9-bc42-526af7764f64",
-            "version": [0, 0, 1]
-        }
-    ]
+        "description": "The RedstoneTorchRocket script",
+        "type": "client_data",
+        "uuid": "ccbe7a10-7fbb-11e9-bc42-526af7764f64",
+        "version": [0, 1, 0]
+    }]
 }
