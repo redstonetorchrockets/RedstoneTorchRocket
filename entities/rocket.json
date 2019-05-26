@@ -1,16 +1,20 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:entity": {
-		"description": {
-			"identifier": "rtr:rocket",
-			"is_spawnable": true,
-			"is_summonable": true,
-			"is_experimental": true
-		},
-		"components": {
-			"minecraft:physics": {
-				"has_gravity": true
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "rtr:rocket",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": true
+        },
+        "components": {
+            "minecraft:physics": {
+                "has_gravity": true
+            },
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            }
+        }
+    }
 }

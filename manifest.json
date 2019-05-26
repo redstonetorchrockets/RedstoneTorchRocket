@@ -7,8 +7,15 @@
         "version": [0, 0, 1]
     },
     "modules": [{
-        "type": "data",
-        "uuid": "01abf95a-7eef-11e9-8f9e-2a86e4085a59",
-        "version": [0, 0, 1]
-    }]
+            "type": "data",
+            "uuid": "01abf95a-7eef-11e9-8f9e-2a86e4085a59",
+            "version": [0, 0, 1]
+        },
+        {
+            "description": "The RedstoneTorchRocket script",
+            "type": "client_data",
+            "uuid": "ccbe7a10-7fbb-11e9-bc42-526af7764f64",
+            "version": [0, 0, 1]
+        }
+    ]
 }

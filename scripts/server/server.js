@@ -1,0 +1,1 @@
+var rtr = server.registerSystem(0, 0);
