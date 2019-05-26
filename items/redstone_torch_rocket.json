@@ -2,7 +2,7 @@
     "format_version": "1.10",
     "minecraft:item": {
         "description": {
-            "identifier": " rtr:redstone_torch_rocket"
+            "identifier": "rtr:redstone_torch_rocket"
         },
 
         "components": {
