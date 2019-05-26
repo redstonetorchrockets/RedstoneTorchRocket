@@ -1,1 +1,1 @@
-say hi
+effect @e[type=rtr:rocket,tag=fly] levitation 5 5 true
