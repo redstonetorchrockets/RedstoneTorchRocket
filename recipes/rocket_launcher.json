@@ -1,25 +1,30 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
+    "minecraft:recipe_shaped": {
         "description": {
             "identifier": "rtr:rocket_launcher"
         },
 
 
         "tags": ["crafting_table"],
-        "ingredients": [{
-                "item": "minecraft:stone",
-                "data": 0
-            },
-            {
-                "item": "minecraft:fireworks",
-                "data": 0
-            }
+        "pattern": [
+            "RRR",
+            "ROR",
+            "RGR"
         ],
+        "key": {
+            "O": {
+                "item": "minecraft:obsidian"
+            },
+            "G": {
+                "item": "minecraft:glowstone_dust"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
         "result": {
-            "item": "rtr:rocket_launcher",
-            "data": 0,
-            "count": 1
+            "item": "rtr:rocket_launcher"
         }
     }
 }
