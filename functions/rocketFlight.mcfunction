@@ -1,5 +1,5 @@
 execute @e[type=rtr:rocket] ~ ~ ~ detect ~ ~-1 ~ rocket_launcher 0 tag @s add fly
-effect @e[type=rtr:rocket,tag=fly] levitation 5 5 true
+effect @e[type=rtr:rocket,tag=fly] levitation 5 7 true
 execute @e[type=rtr:rocket,tag=fly] ~ ~ ~ kill @e[y=300,r=20]
 execute @e[type=rtr:rocket,tag=fly] ~ ~ ~ execute @e[type=rtr:rocket,tag=fly,tag=!state150,y=150,r=1] ~ ~ ~ say §aheight: §e150m
 execute @e[type=rtr:rocket,tag=fly] ~ ~ ~ execute @e[type=rtr:rocket,tag=fly,tag=!state150,y=150,r=1] ~ ~ ~ tag @s add state150

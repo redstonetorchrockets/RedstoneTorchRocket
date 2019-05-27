@@ -7,7 +7,9 @@
             "register_to_creative_menu": true
         },
         "components": {
-
+            "minecraft:loot": {
+                "table": "loot_tables/blocks/rocket_launcher.json"
+            },
             "minecraft:destroy_time": {
                 "value": 2
             },
