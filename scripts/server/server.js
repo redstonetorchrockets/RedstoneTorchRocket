@@ -1,6 +1,14 @@
 var system = server.registerSystem(0, 0);
 
-system.initialize = function() {};
+system.initialize = function() {
+    //minecraft:player_attacked_entity 
+    this.listenForEvent("minecraft:player_attacked_entity", (eventData) => this.onPick(eventData));
+};
+
+system.onPick = function(eventData) {
+    this.runCommand("execute @p ~ ~ ~ esay §eDas tut weh @" + eventData.data.player.__type__ + "!§r");
+    this.runCommand("w @p Das macht man nicht!");
+};
 
 system.update = function() {
     this.runCommand("function rocketFlight");
