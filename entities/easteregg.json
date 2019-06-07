@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "rtr:rocket",
+            "identifier": "rtr:easteregg",
             "is_spawnable": true,
             "is_summonable": true,
             "is_experimental": true
