@@ -1,11 +1,22 @@
 {
-    "format_version": "1.10.0",
+    "format_version": "1.8.0",
     "minecraft:entity": {
         "description": {
             "identifier": "rtr:easteregg",
             "is_spawnable": true,
             "is_summonable": true,
-            "is_experimental": true
+            "is_experimental": true,
+            "animations": {
+                "behavior":"animation.easteregg.behavior",
+                "behavior_controller":"controller.animation.easteregg.behavior_controller"
+               },
+               "scripts": {
+                   "animate": [
+                       "behavior",
+                     "behavior_controller"
+                    ]
+                
+                }
         },
         "components": {
             "minecraft:physics": {
@@ -15,9 +26,12 @@
                 "value": 1
             },
             "minecraft:collision_box": {
-                "width": 0,
-                "height": 0
+                "width": 0.01,
+                "height": 0.01
             }
+            
+        
         }
+        
     }
 }

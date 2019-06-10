@@ -1,1 +1,0 @@
-execute @e ~ ~ ~ say §eDas tut weh!§r
