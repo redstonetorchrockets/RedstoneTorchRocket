@@ -7,15 +7,16 @@
       "timeline": {
         "0.0" : "/particle rtr:smoke ~ ~ ~",
         "1.0" : "/effect @s levitation 10 5 true",
-        "6.0" : "/particle rtr:r ~ ~ ~",
-        "7.0" : "/particle rtr:t ~ ~ ~",
-        "8.0" : "/particle rtr:r ~ ~ ~",
-        "10.0" : ["/particle rtr:teleport ~ ~ ~",
-                 "/effect @s invisibility 10 1 true",
-                 "/particle rtr:sign ~ ~ ~"
+        "4.0" : "/particle rtr:r ~ ~-5 ~",
+        "5.5" : "/particle rtr:t ~ ~-5 ~",
+        "7.0" : "/particle rtr:r ~ ~-5 ~",
+        "10.0" : ["/effect @s invisibility 10 1 true",
+                 "/particle rtr:teleport ~ ~ ~",
+                 "/tp @s ~ ~39 ~"
                 ],
-        "10.5" : "minecraft:despawn"
-        
+        "13.0" : ["/particle rtr:sign ~ ~ ~",
+          "/tp @s 100000 -100 100000"
+        ]
       }
     }
   }
