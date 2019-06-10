@@ -5,17 +5,19 @@
       "loop": false,
 			"animation_length": 15,
       "timeline": {
-        "0.0" : "/particle rtr:smoke ~ ~ ~",
+        "0.0" : ["/particle rtr:smoke ~ ~ ~",
+          "/playsound mob.easteregg.minirocket"
+        ],
         "1.0" : "/effect @s levitation 10 5 true",
         "4.0" : "/particle rtr:r ~ ~-5 ~",
         "5.5" : "/particle rtr:t ~ ~-5 ~",
         "7.0" : "/particle rtr:r ~ ~-5 ~",
+        "8.0" :"/particle rtr:teleport ~ ~5 ~",
         "10.0" : ["/effect @s invisibility 10 1 true",
-                 "/particle rtr:teleport ~ ~ ~",
                  "/tp @s ~ ~39 ~"
                 ],
         "13.0" : ["/particle rtr:sign ~ ~ ~",
-          "/tp @s 100000 -100 100000"
+          "/tp @s 10000000 -100 10000000"
         ]
       }
     }
